@@ -25,7 +25,7 @@
   "bugs": {
 	"url": "https://github.com/mades-g/fsbtech_test/issues"
   },
-  "homepage": "https://github.com/mades-g/fsbtech_test#readme"
+  "homepage": "https://github.com/mades-g/fsbtech_test#readme", 
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
