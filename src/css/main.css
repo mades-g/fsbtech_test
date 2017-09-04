@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  background-color: #1887B7;
+  color: #E4E5E6;
+}
+
+.selectWrapper {
+  margin-bottom: 20px;
+  font-weight: bold
+}
+
+.app-container {
+  margin: 0 auto;
+  width: 450px;
+}
+
+.ecosysWrapper {
+  box-shadow: 0px 0px 5px 5px rgb(21,123,169)
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.ecosysteCounterContainer {
+  display: flex;
+  font-weight: bold;
+}
+
+.counter {
+  background-color: #D26D25;
+  flex: 0 0 10%;
+  padding: 20px;
+  text-align: center;
+}
+
+.description {
+  flex: 1;
+  padding: 20px;
+  background-color: #363636;
+}
+
+.ecosysteStakesContainer {
+  display: flex;
+  color: #1987B7;
+  font-weight: bold
+}
+
+.stake {
+  flex: 1;
+  padding: 20px;
+  color: #363636;
+  background-color: #1987B7;
+  text-align: center;
+  cursor: pointer;
+}
+
+.stake:hover {
+  background-color:#DDDDDD;
+}
+
+.stake.selected {
+  background-color: #A9DCCF;
+  /* No need for mouseleave event :3 */
+}
+
+.img-container {
+  flex: 0 0 10%;
+}
+
+.horse-description {
+  margin: 20px;
+  padding: 5px 10px;
+  border-top: #a0a0a0 solid 1px;
+  background-color: #f5f5f5;
+  color: #363636;
+}
+
+.selected {
+  background-color: #A9DCCF;
+}
+
+.clearfix {
+  clear: both;
+}
