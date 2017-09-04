@@ -1,0 +1,13 @@
+{
+	"db": "mongo2",
+	"total": 2,
+	"players": [{
+			"player": "Floyd Mayweather Jr.",
+			"price": "100m"
+		},
+		{
+			"player": "Conor McGregor",
+			"price": "30m"
+		}
+	]
+}
