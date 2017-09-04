@@ -40,16 +40,22 @@ To find the version of NodeJS installed on your machine type `node -v`.
 Once you have node.js installed, open up your OS's Terminal/Bash application, change into the root folder of the test (where the file `package.json` is located) and run `npm install`.
 By doing this, you will install this project dependencies.
 
-
 ### NPM scripts:
     - npm run dev: To start develepment server.
     - npm run prod: For production.
     - npm start: To simulate a server with production files.
+    
+If you ran into an error while running ```npm start``` or ```npm run prod``` , deep breath.
+Since you probably using a Windows OS to run this project.
+Edit you package.json file, in the root folder of this project.
+
+Change ```npm run clean && NODE_ENV=production webpack -p``` to ```npm run clean && NODE_ENV=production webpack -p```.
+
 
 The build files are located in the `./dist` folder.
 
 ### UI Assets
-The `src/assets` directory holds all static assets, svg's as well css files.
+The `src/assets` directory holds all static assets, svg's.
 
 ### Sample JSON
 
@@ -78,7 +84,7 @@ The `src/assets` directory holds all static assets, svg's as well css files.
 ```
  
  
- ### Futher Readings:
+ ### Further Readings:
   - http://es6-features.org/#
   - [ECMAScript features 6](https://github.com/lukehoban/es6features/blob/master/README.md)
   - [ES7 async/await](http://rossboucher.com/await/#/)
