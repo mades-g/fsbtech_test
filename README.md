@@ -33,7 +33,7 @@ selected.  * [sample JSON](#sample-json).
 You will need [node.js](https://nodejs.org) v6.x. In case you want to manage several node versions on your machine, you can choose between, [nvm](https://github.com/creationix/nvm) for Mac/*nix, [n](https://github.com/tj/n) for *nix and [nodist](https://github.com/marcelklehr/nodist) for Windows.
 
 I personally use [n](https://github.com/tj/n)
-To find the version of NodeJS installed on your machine type `node -v`.
+z find the version of NodeJS installed on your machine type `node -v`.
 
 ### Install NPM packages and run build
 
@@ -49,7 +49,7 @@ If you ran into an error while running ```npm start``` or ```npm run prod``` , d
 Since you probably using a Windows OS to run this project.
 Edit you package.json file, in the root folder of this project.
 
-Change ```npm run clean && NODE_ENV=production webpack -p``` to ```npm run clean && NODE_ENV=production webpack -p```.
+Change ```npm run clean && NODE_ENV=production webpack -p``` to ```npm run clean && SET NODE_ENV=production webpack -p```.
 
 
 The build files are located in the `./dist` folder.
