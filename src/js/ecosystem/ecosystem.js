@@ -15,6 +15,10 @@ export class EcoSystem {
     return this._counter;
   }
 
+  set counter(cont) {
+     this._counter = cont;
+  }
+
   update(msg, index) {
     if(msg && msg.increment) {
       this._counter++;
@@ -64,6 +68,6 @@ export class EcoSystem {
 
     this.template.stakeContainer.innerHTML = '';
     this.template.listContainer.innerHTML = '';
-    ecosysCounter.innerHTML = 0;
+    ecosysCounter.innerHTML = this.counter = 0;
   }
 }
